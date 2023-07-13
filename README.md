@@ -58,6 +58,7 @@ $ ./load_large_data.sh
 SQLをPostgreSQLに対して実行する方法として
 - Jupyter Notebookで`JupySQL`を使用
 - VSCode Extensionの`PostgreSQL`を使用
+- terminalで`psql`を使用
 
 を用意しています。
 
@@ -97,3 +98,11 @@ VSCodeのExtensionである[PostgreSQL](https://marketplace.visualstudio.com/ite
 - Use an ssl connection?: Standard Connection
 
 使い方はExtensionのページを参照してください。
+
+### psqlを使う
+
+Terminalで以下のコマンドを実行するとDBに接続できます。
+
+```bash
+$ PGPASSWORD=$POSTGRES_PASSWORD psql -h db -U $POSTGRES_USER $POSTGRES_DB
+```
