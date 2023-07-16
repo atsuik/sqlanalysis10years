@@ -2,6 +2,7 @@
 
 [10年戦えるデータ分析入門](https://www.sbcr.jp/product/4797376272/)のSQLを試すための環境をDevcontainerを使って整備しました。
 
+より詳しい説明については[この記事](https://blog.atsuik.com/posts/sqlanalysis10years-devcontainer)を参照してください。
 
 ## ローカルで実行
 
